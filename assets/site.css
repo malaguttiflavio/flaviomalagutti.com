@@ -102,7 +102,7 @@ main   { padding-bottom: 5rem; }
 .hero__media {
   position: relative;
   width: 100%;
-  aspect-ratio: 21 / 8;
+  aspect-ratio: 2 / 1;    /* matches the crop of hero.jpg */
   min-height: 260px;
   max-height: 62vh;
   overflow: hidden;
@@ -110,8 +110,8 @@ main   { padding-bottom: 5rem; }
   background:
     linear-gradient(160deg, #C9805A 0%, #A65B37 45%, #6E4B33 100%);
 }
-.hero__media img { width: 100%; height: 100%; object-fit: cover; }
-@media (max-width: 640px) { .hero__media { aspect-ratio: 4 / 3; } }
+.hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: 42% center; }
+@media (max-width: 640px) { .hero__media { aspect-ratio: 5 / 3; } }
 
 /* ---- Intro block ------------------------------------------- */
 .intro { padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(2rem, 5vw, 3.5rem); }
