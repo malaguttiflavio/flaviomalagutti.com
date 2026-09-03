@@ -218,7 +218,8 @@ h2 {
   padding-bottom: 1px;
 }
 .entry__links a:hover { border-bottom-color: var(--accent); }
-.entry__links a::after { content: " ↗"; font-size: .75em; opacity: .55; }
+/* only flag links that actually leave the site */
+.entry__links a[href^="http"]::after { content: " ↗"; font-size: .75em; opacity: .55; }
 
 /* The signature "insight" device */
 .insight {
