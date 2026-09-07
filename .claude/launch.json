@@ -4,8 +4,14 @@
     {
       "name": "site",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "/Users/flavioamalagutti/Documents/Work/GitHub/flaviomalagutti.com"],
-      "port": 8765
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8781",
+        "--directory",
+        "/Users/flavioamalagutti/Documents/Work/GitHub/flaviomalagutti.com"
+      ],
+      "port": 8781
     }
   ]
 }
